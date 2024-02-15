@@ -1,0 +1,43 @@
+.seo-secton-4 .card-body {
+    height: 13rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    letter-spacing: -0.01rem;
+}
+
+.card-section-div .card-body h5 {
+    text-transform: capitalize;
+}
+
+.card-section-div .card-body a,
+.seo-secton-4 .card-body a {
+    color: #FFF;
+    text-transform: capitalize;
+}
+
+.seo_work_div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.seo_work_div .card {
+    border-radius: 15px;
+    width: 18rem;
+}
+
+.seo_work_div .card .work_img {
+    height: 200px;
+    margin-top: 1rem;
+}
+
+.seo_work_div .card .card-title {
+    font-weight: 700;
+}
+
+.seo_work_div .card .card-text {
+    color: #737373;
+}

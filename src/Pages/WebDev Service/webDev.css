@@ -1,0 +1,88 @@
+
+
+
+
+.---section-banner .img-div {
+    display: flex;
+    /* width: 36.5rem; */
+    max-width: 100%;
+    height: 29.0625rem;
+    flex-shrink: 0;
+}
+
+
+.card-section-div {
+    width: min(100%, 60rem);
+    margin: auto;
+}
+
+
+
+
+
+.card-section-div .card-body h5 {
+    text-transform: capitalize;
+}
+
+.card-section-div .card-body a,
+.web-dev-secton-4 .card-body a {
+    color: #FFF;
+    text-transform: capitalize;
+}
+
+.h3Class {
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h3Class::after {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("../../Assests/svg/Vector.svg")  no-repeat center center;
+    background-size: contain;
+    transition: transform 0.3s ease;
+}
+
+.svg_icon::after{
+    filter: invert(60);
+}
+
+.h3Class.active::after {
+    transform: rotate(180deg);
+}
+
+.accordionContentClass:last-child {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.contentClass,
+.contentClass p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875rem;
+}
+
+@media (width<780px) {
+
+    .h3Class {
+        font-size: .7rem;
+        line-height: 1.52rem;
+    }
+
+    .contentClass,
+    .contentClass p {
+        font-size: .8rem;
+        line-height: 1rem;
+    }
+}

@@ -1,0 +1,115 @@
+.blogs h1{
+    font-family: "Lexend Deca",sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3rem;
+    color: #0f110f;
+}
+
+.navigation p a{
+    color: #000000;
+    font-size: .913rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+}
+.navigation  .gt{
+    font-size: .7rem;
+}
+
+.card-body a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.custom-height{
+    height: 5rem;
+}
+
+/* .blog-d-container{
+    padding: 2rem 3rem;
+} */
+
+.blog-d-container h2 {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.2rem;
+    line-height: 3.5rem;
+    text-align: start;
+}
+
+.blog-d-container h4 {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    text-align: justify;
+}
+.blog-d-container br{
+    line-height: 1rem;
+    padding: 2rem;
+}
+
+.blog-d-container h3 {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+.blog-d-container p{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: justify;
+    /* padding: .5rem 0; */
+}
+
+.blog-d-container li{
+    font-size: 1rem;
+    text-align: justify;
+    line-height: 1.5rem;
+}
+.blog-d-container ul{
+    padding-left: 1rem;
+}
+
+.blog-d-container a{
+    text-decoration: none;
+}
+
+.blog-d-container img{
+    max-width: 100%;
+    width: max-content;
+    display: block;
+    margin: 1rem 0;
+}
+
+@media (width<770px) {
+    .blog-d-container h2 {
+        font-weight: 700;
+        font-style: normal;
+        font-size: 2rem;
+        line-height: 2.5rem;
+        text-align: justify;
+    }
+    .blog-d-container h3 {
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        text-align: justify;
+    }
+}
+
+
+@media (width<568px) {
+    .blog-d-container h2 {
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1.8rem;
+        line-height: 2.1rem;
+        text-align: justify;
+    }
+}

@@ -1,0 +1,137 @@
+
+
+.influencer_marketing-container {
+    width: min(92%,76.4375rem);
+    height: 300px;
+
+    height: max-content;
+    flex-shrink: 0;
+    background: #F6FDFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.influencer_marketing-content {
+    display: flex;
+    width: 100%;
+    /* height: 100%; */
+}
+
+.left_section-img_div {
+    width: 29.125rem;
+    height: 35.375rem;
+    flex-shrink: 0;
+    background: lightgray 50% / cover no-repeat center;
+}
+
+
+
+.input_div input {
+    padding: .4rem 0;
+    background: transparent;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+/* .input_div */
+
+
+.influencer_marketing-button {
+    display: inline-flex;
+    padding: 1.25rem 7.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 0.625rem;
+    background: #110D3C;
+    box-shadow: 0px 1px 20px 0px rgba(15, 15, 15, 0.30);
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.375rem;
+    font-style: normal;
+    line-height: normal;
+}
+
+.influencer_marketing-button:hover {
+    color: #110D3C;
+    background-color: #FFF;
+}
+
+
+
+
+
+
+@media (max-width: 1200px) {
+    .left_section-img_div {
+        width: 22.125rem;
+        height: 28.375rem;
+    }
+    
+
+    .influencer_marketing-button{
+        font-size: 1rem;
+        padding: 1.2rem 5.5rem;
+    }
+    .input_div input{
+        font-size: .95rem;
+    }
+
+    
+}
+
+@media  (max-width:825px) {
+    .left_section-img_div {
+        width: 18.125rem;
+        /* height: 26.375rem; */
+    }
+    .influencer_marketing-button{
+        font-size: 1rem;
+        padding: 1rem 2.5rem;
+    }
+    .input_div input{
+        font-size: .6rem;
+    }
+    .cancel_btn{
+        top: .5rem;
+    }
+    
+    .influencer_marketing-container{
+        margin-top: 12rem;
+    }
+}
+
+@media (max-width:576px) {
+    .influencer_marketing-content{
+        flex-direction: column;
+    }
+
+    .left_section-img_div {
+        /* width: 22.125rem; */
+        width: 100%;
+        /* height: 22.375rem; */
+    }
+    
+
+    .influencer_marketing-button{
+        font-size: .75rem;
+        padding: .7rem 3rem;
+    }
+    .input_div input{
+        font-size: .75rem;
+    }
+
+    .cancel_btn{
+        display: none;
+    }
+    .mob_cancel_btn{
+        margin-top: -2rem;
+        background-color: transparent;
+        right: 4.5%;
+        filter: invert(1);
+    }
+    .influencer_marketing{
+        top:20%;
+    }
+}

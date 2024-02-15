@@ -1,0 +1,15 @@
+.social-media-secton-4 .card-body {
+    height: 13rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    letter-spacing: -0.01rem;
+}
+
+
+.card-section-div .card-body a,
+.social-media-secton-4 .card-body a {
+    color: #FFF;
+    text-transform: capitalize;
+}
+
